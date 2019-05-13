@@ -1,0 +1,116 @@
+body {
+  /* background-color: #373c56; */
+  background-color: darkgrey;
+}
+
+#menu {
+  width: 35px;
+  height: 30px;
+  margin: 30px 0 20px 20px;
+  cursor: pointer;
+}
+
+#logo {
+  width: 100px;
+}
+
+.bar {
+  height: 5px;
+  width: 100%;
+  /* background-color: #b81568; */
+  background-color: black;
+  display: block;
+  border-radius: 5px;
+}
+
+#bar1 {
+  transform: translateY(-4px);
+}
+
+#bar3 {
+  transform: translateY(4px);
+}
+
+.nav li a {
+  /* color: #fff; */
+  color: black;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  font-weight: bold;
+}
+
+.nav li {
+  list-style: none;
+  padding: 16px 0px;
+}
+
+.nav {
+  padding: 0;
+  margin: 0 20px;
+  transition: 0.3s ease;
+  display: none;
+}
+
+#heading-bar {
+  display: flex;
+}
+
+/* .menu-bg {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  /* background: radial-gradient(circle, #e94498, #b81568); */
+  background: radial-gradient(circle, gray, lightgray);
+  transition: 0.3s ease;
+  border-radius: 50%;
+} */
+
+#menu-bar {
+  z-index: 2;
+}
+
+/* .change-bg {
+  width: 550px;
+  height: 540px;
+  transform: translate(-60%, -30%);
+} */
+
+.change .bar {
+  /* background-color: white; */
+  background-color: black;
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotate(45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+.change {
+  display: block;
+}
+
+.hero {
+  font-size: 100px;
+  margin: 200px auto;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 100px;
+}
+
+/* .enlarged-image {
+  display: inline-block;
+  margin-left: 100px;
+  font-size: 70px;
+  border: 1px solid black;
+  padding-top: 350px;
+  padding-bottom: 250px;
+} */
