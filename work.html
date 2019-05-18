@@ -3,49 +3,139 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js">
+<html lang="en">
   <!--<![endif]-->
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>My Work</title>
     <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
-    <nav>
-      <div id="logo-container">
-        <img src="" alt="logo" />
+    <div id="work-bg-img">
+      <nav>
+        <a
+          href="https://github.com/jclk86"
+          id="name-logo"
+          aria-label="link to github page"
+          >JOHN CHAN</a
+        >
+        <div id="side-nav-links" role="navigation"></div>
+        <div id="menu-bar">
+          <div id="menu">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+          </div>
+        </div>
+      </nav>
+      <div class="under" aria-hidden="true"></div>
+      <div
+        id="nav-link-container"
+        class="width"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <ul id="nav-link-list">
+          <li>
+            <a href="index.html" id="home" aria-label="link to home page"
+              ><i class="fas fa-home"></i
+            ></a>
+          </li>
+          <li>
+            <a href="about.html" id="about" aria-label="link to about page"
+              ><i class="fas fa-portrait"></i
+            ></a>
+          </li>
+          <li>
+            <a href="work.html" id="work" aria-label="link to work page"
+              ><i class="fas fa-suitcase"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="contact.html"
+              id="contact"
+              aria-label="link to contact page"
+              ><i class="far fa-address-book" id="address-book-icon"></i
+            ></a>
+          </li>
+        </ul>
       </div>
-      <div id="menu-bar">
-        <div id="menu">
-          <div id="bar1" class="bar"></div>
-          <div id="bar2" class="bar"></div>
-          <div id="bar3" class="bar"></div>
+      <div id="image-content" role="main">
+        <div class="image-rows" class="width">
+          <img src="compressed-images/quiz-question-min.jpg" class="fit" />
+          <div class="portfolio-1">
+            <div class="center">
+              <h1>Comic Books Trivia App</h1>
+              <p role="complementary">
+                The Comic Book Trivia app puts your knowledge of comic book
+                history to the test. The quiz tracks user’s progress, score, and
+                gives feedback on whether the user has passed or not.
+              </p>
+              <p role="complementary">
+                <span>Built with:</span> HTML, CSS, jQuery, JavaScript
+              </p>
+              <a
+                href="#"
+                class="quiz-app-links"
+                aria-label="link to quiz app on github"
+                >Github</a
+              >
+              <a
+                href="https://repl.it/@JohnC5/quiz-app"
+                class="quiz-app-links"
+                aria-label="link to live demo of quiz app"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="down" aria-hidden="true"></div>
+        <div id="footer" role="contentinfo">
+          <footer>
+            <a
+              href="https://github.com/jclk86"
+              id="github"
+              aria-label="link to github page"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/john-chan-b2a894126/"
+              id="linkedin"
+              aria-label="link to linkedin page"
+              ><i class="fab fa-linkedin"></i></a
+            ><a
+              href="mailto: johnchancontact@gmail.com"
+              aria-label="link to email"
+              ><i class="fas fa-envelope-square"></i
+            ></a>
+          </footer>
         </div>
       </div>
-    </nav>
-    <div class="under"></div>
-    <div id="nav-link-container" class="nav-link-container">
-      <ul id="nav-link-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="work.html">My Work</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-    <div class="row">
-      <div id="my-work-header" class="col-8"><h1>MY WORK</h1></div>
-      <div id="my-work-image-container" class="col-8"><img src="" />IMAGE</div>
-      <div id="my-work-description" class="col-8"><p>DESCRIPTION</p></div>
     </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-    <script src="app.js" async defer></script>
+    <script src="index.js" async defer></script>
   </body>
 </html>

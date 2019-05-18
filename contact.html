@@ -10,76 +10,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Contact</title>
     <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
-    <nav>
-      <div id="logo-container">
-        <img src="" alt="logo" />
-      </div>
-      <div id="menu-bar">
-        <div id="menu">
-          <div id="bar1" class="bar"></div>
-          <div id="bar2" class="bar"></div>
-          <div id="bar3" class="bar"></div>
+    <div id="bricks-bg-img">
+      <nav>
+        <a
+          href="https://github.com/jclk86"
+          id="name-logo"
+          aria-label="link to github page"
+          >JOHN CHAN</a
+        >
+        <div id="side-nav-links" role="navigation"></div>
+        <div id="menu-bar">
+          <div id="menu">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+          </div>
         </div>
+      </nav>
+      <div class="under" aria-hidden="true"></div>
+      <div
+        id="nav-link-container"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <ul id="nav-link-list">
+          <li>
+            <a href="index.html" id="home" aria-label="link to home page"
+              ><i class="fas fa-home"></i
+            ></a>
+          </li>
+          <li>
+            <a href="about.html" id="about" aria-label="link to about page"
+              ><i class="fas fa-portrait"></i
+            ></a>
+          </li>
+          <li>
+            <a href="work.html" id="work" aria-label="link to work page"
+              ><i class="fas fa-suitcase"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="contact.html"
+              id="contact"
+              aria-label="link to contact page"
+              ><i class="far fa-address-book" id="address-book-icon"></i
+            ></a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <div class="under"></div>
-    <div id="nav-link-container" class="nav-link-container">
-      <ul id="nav-link-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="work.html">My Work</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-    <div class="row">
-      <div id="form-container" class="col-8">
-        <form action="action_page.php">
-          <label for="fname">First Name</label>
-          <input
-            type="text"
-            id="fname"
-            name="firstname"
-            placeholder="Your name.."
-          />
+      <div
+        id="contacts-content"
+        role="main"
+        aria-label="Links to social media pages and email"
+      >
+        <div class="icon-container">
+          <a
+            href="https://github.com/jclk86"
+            id="github"
+            aria-label="link to github page"
+            ><i class="fab fa-github"></i
+          ></a>
 
-          <label for="lname">Last Name</label>
-          <input
-            type="text"
-            id="lname"
-            name="lastname"
-            placeholder="Your last name.."
-          />
-          <label for="subject">Subject</label>
-          <textarea
-            id="subject"
-            name="subject"
-            placeholder="Write something.."
-            style="height:200px"
-          ></textarea>
-
-          <input type="submit" value="Submit" />
-        </form>
-      </div>
-    </div>
-
-    <div class="row">
-      <div id="my-contact-container" class="col-8">
-        <div id="my-contact-content">
-          <h1 id="name">JOHN CHAN</h1>
-          <p id="address">ADDRESS: 190 Hester St. Apt.4 New York, NY 10013</p>
-          <p id="email">EMAIL:<a href="">johnchancontact@gmail.com</a></p>
+          <div class="label-container">
+            <label id="github-label">Github</label>
+          </div>
         </div>
-        <div id="location">
-          <img
-            id="location-image"
-            src="portfolio-images/location.jpg"
-            alt="map of my location"
-          />
+        <div class="icon-container">
+          <a
+            href="https://www.linkedin.com/in/john-chan-b2a894126/"
+            id="linkedin"
+            aria-label="link to linked in page"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <div class="label-container">
+            <label id="linkedin-label">Linkedin</label>
+          </div>
+        </div>
+        <div id="envelope-container">
+          <a href="mailto: johnchancontact@gmail.com"
+            ><i class="fas fa-envelope-square"></i
+          ></a>
+
+          <div class="label-container" id="email-label-container">
+            <label id="email-label">Email Me</label>
+          </div>
         </div>
       </div>
     </div>
@@ -89,6 +122,6 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-    <script src="app.js" async defer></script>
+    <script src="index.js" async defer></script>
   </body>
 </html>
