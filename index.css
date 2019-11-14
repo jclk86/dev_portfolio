@@ -127,7 +127,6 @@ body,
 html {
   margin: 0;
   padding: 0;
-  /* was min-height: 100vh */
   min-height: 100vh;
   width: 100%;
 }
@@ -141,7 +140,6 @@ html {
 #bricks-bg-img,
 #work-bg-img {
   position: relative;
-  /* was min-height: 100vh */
   min-height: 100vh;
 }
 
@@ -155,7 +153,6 @@ html {
   top: 0px;
   left: 0px;
   width: 100%;
-  /* was min-height: 100vh */
   min-height: 10vh;
   z-index: -1;
   opacity: 0.8;
@@ -379,7 +376,7 @@ footer a {
 #photo-of-me {
   display: block;
   height: 5%;
-  border: 10px solid white;
+  border: 10px solid rgb(219, 219, 219);
   box-shadow: 7px 7px 7px black;
 }
 
@@ -393,21 +390,30 @@ img {
   display: block;
   margin: 0 auto;
   width: 80%;
-  border: 10px solid white;
+  border: 10px solid rgb(219, 219, 219);
   box-shadow: 7px 7px 7px black;
 }
 
-.portfolio-1 {
+.portfolio-1,
+.portfolio-2,
+.portfolio-3,
+.portfolio-4 {
   width: 100%;
   text-align: center;
   color: white;
   font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
-.portfolio-1 h1 {
+.portfolio-1 h2,
+.portfolio-2 h2,
+.portfolio-3 h2,
+.portfolio-4 h2 {
   font-size: 20px;
   line-height: 24px;
   margin-top: 10px;
+  font-weight: bold;
 }
 
 .center {
@@ -415,13 +421,16 @@ img {
   display: inline-block;
 }
 
-.portfolio-1 p {
+.portfolio-1 p,
+.portfolio-2 p,
+.portfolio-3 p,
+.portfolio-4 p {
   font-size: 16px;
   line-height: 20px;
   margin-top: 10px;
 }
 
-.quiz-app-links {
+.app-links {
   font-size: 24px;
   line-height: 40px;
   color: rgb(250, 250, 250);
