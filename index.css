@@ -428,6 +428,8 @@ img {
   font-size: 16px;
   line-height: 20px;
   margin-top: 10px;
+  margin-right: 3px;
+  margin-left: 3px;
 }
 
 .app-links {
