@@ -371,6 +371,8 @@ footer a {
   line-height: 24px;
   color: white;
   font-family: "Montserrat", sans-serif;
+  margin-right: 3px;
+  margin-left: 3px;
 }
 
 #photo-of-me {
