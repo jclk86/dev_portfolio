@@ -172,7 +172,7 @@ html {
 
 #work-bg-img {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("compressed-images/mywork-min.jpeg");
+    url("compressed-images/mywork-min.jpg");
   background-size: cover;
 }
 
@@ -181,6 +181,7 @@ html {
     url("compressed-images/bricks-bg-min.jpg");
   background-size: cover;
 }
+
 /* Mobile Devices */
 nav {
   background-color: black;
@@ -203,6 +204,10 @@ nav {
   color: white;
   margin-left: 20px;
   margin-top: 15px;
+}
+
+#name-logo:hover {
+  color: rgb(7, 166, 206);
 }
 
 #menu-bar {
@@ -285,9 +290,14 @@ ul li a {
   color: white;
 }
 
+ul li a:hover {
+  color: rgb(7, 166, 206);
+}
+
 .down {
   height: 50px;
 }
+
 footer {
   display: flex;
   color: white;
@@ -310,6 +320,11 @@ footer a {
 .fab,
 .fa-envelope-square {
   font-size: 25px;
+}
+
+.fab:hover,
+.fa-envelope-square:hover {
+  color: rgb(7, 166, 206);
 }
 
 /* Home page */
@@ -441,6 +456,11 @@ img {
   color: rgb(250, 250, 250);
   margin-left: 5px;
 }
+
+.app-links:hover {
+  color: rgb(7, 166, 206);
+}
+
 /* Contact page */
 
 #contacts-content {
@@ -586,7 +606,7 @@ label {
     text-decoration: none;
   }
 
-  #nav-list li a:hover {
+  #nav-list li a:active {
     text-decoration: underline;
   }
 
